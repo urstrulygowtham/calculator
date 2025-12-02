@@ -9,7 +9,8 @@ pipeline {
     stages {
         stage('SCM Checkout'){
             steps{
-                git 'https://github.com/SEETHAMRAJU/calculator.git'
+                git branch: 'main', url: 'https://github.com/urstrulygowtham/calculator.git'
+
             }
         }
         stage('Clean'){
