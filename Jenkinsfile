@@ -34,7 +34,7 @@ pipeline {
 
                 // lightweight checkout
 
-                git url: 'https://github.com/urstrulygowtham/calculator.git'
+                git branch: 'main', url: 'https://github.com/urstrulygowtham/calculator.git'
 
             }
 
